@@ -1,0 +1,15 @@
+<h1>Now your result</h1>
+
+<p>Your word: <%= @attempt %></p>
+
+<p>Time Taken to answer: <%=  @timing %> secondes</p>
+<p>Translation: <%=  @translation %></p>
+<p>Your score: <%= @score %></p>
+<p>Message: <%= @validation %></p>
+
+<%= link_to "Try again", game_path %>
+
+<h2>Your history</h2>
+
+<p>Games played : <%= @games %></p>
+<p>Average score: <%= @average_score %> </p>
